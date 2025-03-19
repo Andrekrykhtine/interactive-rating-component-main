@@ -51,7 +51,12 @@ main{
 
 .number:hover{
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var( --very-dark-blue);
+}
+
+.number.selected {
+    background-color: #fff;
+    color: var( --very-dark-blue);
 }
 
 .submit-button{
@@ -73,9 +78,7 @@ main{
 }
 
 
-.number.selected {
-    background-color: #fff;
-}
+
 
 .submit-button:disabled {
     background-color: #ccc;

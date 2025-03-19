@@ -1,0 +1,54 @@
+@import url("./variables.css");
+
+body{
+    background-color: var(--very-dark-blue);
+    height: 100vh;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+main{
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    width: 330px;
+    height: 330px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-thanks{
+    width: 130px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.result{
+background-color: var(--dark-grey);
+padding: 8px 15px;
+border-radius: 20px;
+color: var(--primary-color);
+margin-top: 25px;
+font-size: var(--font-size-paragraph);
+}
+
+.title{
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 34px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: var(--font-size-paragraph);
+    line-height: 22px;
+    color: var(--light-grey);
+    margin-top: 10px;
+    line-height: 1.6;
+    text-align: center;
+}
+
