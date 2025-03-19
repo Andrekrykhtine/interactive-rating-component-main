@@ -1,0 +1,12 @@
+@import url("./variables.css");
+
+body {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    font-family: var(--font-family);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

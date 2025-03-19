@@ -1,0 +1,26 @@
+ :root{
+ /* Colors */
+
+ /* ### Primary */
+
+ --primary-color: #fb7413;
+
+/* ### Neutral */
+
+ --white: #ffffff;
+ --light-grey: #959eac;
+ --dark-grey: #32363b;
+ --dark-blue: #252d37;
+ --very-dark-blue: #121417;
+
+/* ## Typography */
+
+/* ### Body Copy */
+
+ --font-size-paragraph: 12px;
+
+/* ### Font */
+
+ --font-family: 'Overpass', sans-serif;
+ --font-weights: 400;
+ }
