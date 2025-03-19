@@ -71,3 +71,17 @@ main{
 .submit-button:hover{    
     background-color: var(--white);
 }
+
+
+.number.selected {
+    background-color: #fff;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
