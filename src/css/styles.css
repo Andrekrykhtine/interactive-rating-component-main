@@ -1,6 +1,6 @@
 @import url("./variables.css");
 
-main{
+main {
     background-color: var(--dark-blue);
     border-radius: 20px;
     width: 330px;
@@ -8,19 +8,19 @@ main{
     padding: 25px;
 }
 
-.star-icon{
+.star-icon {
     background-color: var(--dark-grey);
     border-radius: 50%;
     padding: 12px;
 }
 
-.title{
+.title {
     font-weight: 700;
     font-size: 22px;
     margin-top: 28px;
 }
 
-.description{
+.description {
     font-weight: 400;
     font-size: var(--font-size-paragraph);
     line-height: 22px;
@@ -29,13 +29,13 @@ main{
     line-height: 1.6;
 }
 
-.rating{
+.rating {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.number{
+.number {
     background-color: var(--dark-grey);
     border-radius: 50%;
     width: 40px;
@@ -47,33 +47,35 @@ main{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.number:hover{
+.number:hover {
     background-color: var(--primary-color);
-    color: var( --very-dark-blue);
+    color: var(--very-dark-blue);
 }
 
 .number.selected {
     background-color: #fff;
-    color: var( --very-dark-blue);
+    color: var(--very-dark-blue);
 }
 
-.submit-button{
+.submit-button {
     background-color: var(--primary-color);
     border-radius: 50px;
     width: 97%;
     height: 35px;
-    color: var( --very-dark-blue);
+    color: var(--very-dark-blue);
     font-weight: 700;
     font-size: var(--font-size-paragraph);
     border: none;
     margin-top: 25px;
     cursor: pointer;
     letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
 }
 
-.submit-button:hover{    
+.submit-button:hover {
     background-color: var(--white);
 }
 

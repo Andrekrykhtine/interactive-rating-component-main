@@ -1,6 +1,6 @@
 @import url("./variables.css");
 
-body{
+body {
     background-color: var(--very-dark-blue);
     height: 100vh;
     font-family: var(--font-family);
@@ -10,7 +10,7 @@ body{
     color: var(--white);
 }
 
-main{
+main {
     background-color: var(--dark-blue);
     border-radius: 20px;
     width: 330px;
@@ -21,28 +21,29 @@ main{
     align-items: center;
 }
 
-.img-thanks{
+.img-thanks {
     width: 130px;
     height: 85px;
     margin: 0 auto;
     margin-top: 10px;
 }
-.result{
-background-color: var(--dark-grey);
-padding: 8px 15px;
-border-radius: 20px;
-color: var(--primary-color);
-margin-top: 25px;
-font-size: var(--font-size-paragraph);
+
+.result {
+    background-color: var(--dark-grey);
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: var(--primary-color);
+    margin-top: 25px;
+    font-size: var(--font-size-paragraph);
 }
 
-.title{
+.title {
     font-weight: 700;
     font-size: 22px;
     margin-top: 34px;
 }
 
-.description{
+.description {
     font-weight: 400;
     font-size: var(--font-size-paragraph);
     line-height: 22px;
@@ -51,4 +52,3 @@ font-size: var(--font-size-paragraph);
     line-height: 1.6;
     text-align: center;
 }
-
